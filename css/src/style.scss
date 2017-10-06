@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+
+body{
+	font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+}
+
+h1 {
+	color: #303030;
+	font-weight: 600;
+	font-size: 18px;
+	letter-spacing: 0.002em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 20px;
+	margin: 60px 0 20px;
+}
+
+p {
+	color: #000;
+	font-weight: 600;
+	font-size: 56px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 60px;
+    margin-bottom: 60px;
+}
+
+//Slider
+
+.slider {
+	position: relative;
+	max-width: 1200px;
+	margin: 50px auto;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+
+textarea {
+
+}
